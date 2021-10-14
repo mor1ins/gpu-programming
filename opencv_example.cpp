@@ -11,7 +11,7 @@ using namespace std::chrono;
 int main( int argc, char** argv )
 {
     Mat image;
-    image = imread("pic.png", IMREAD_COLOR);   // Read the file
+    image = imread("pic.jpg", IMREAD_COLOR);   // Read the file
     if(! image.data )                                 // Check for invalid input
     {
         cout <<  "Could not open or find the image" << std::endl ;
